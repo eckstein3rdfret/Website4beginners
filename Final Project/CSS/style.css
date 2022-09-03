@@ -25,7 +25,7 @@ footer{
     height: 125px;
 }
 div.sidebarL{
-    height: 50%;
+    height: 100%;
     width: 15%;
     background-color: black;
     float: left;
@@ -56,7 +56,6 @@ h2{
     text-align: justify;
     border: black;
     border-style: dashed;
-    margin-top: 15px;
 }
 
 #div2{
@@ -65,7 +64,6 @@ h2{
     height: 25px;
     border: black;
     border-style: dashed;
-    margin-top: 75px;
 }
 
 #div3{
@@ -74,7 +72,6 @@ h2{
     height: 25px;
     border: black;
     border-style: dashed;
-    margin-top: 15px;
 }
 
 #div4{
@@ -83,12 +80,13 @@ h2{
     height: 25px;
     border: black;
     border-style: dashed;
-    margin-top: 75px;
 }
 #foot{
+    position: sticky;
+    bottom: 0px;
     background-color: black;
     width: 100%;
-    height: 200px;
+    height: 150px;
     margin-left: 0%;
     margin-right: 0%;
     position: sticky;
@@ -96,8 +94,8 @@ h2{
 }
 #parent1{
     background-color: #ff0000;
-    width: 83.7%;
-    height: 95%;
+    width: 75%;
+    height: 98%;
     border-radius: 25px;
     border-style: solid;
     box-shadow: 2px 2px 2px 2px black inset;
@@ -114,8 +112,9 @@ h2{
 }
 #parent2{
     background-color: rgb(226, 224, 224);
-    height: 90%;
-    width: 14.25%;
+    height: 96%;
+    width: 25%;
+    margin-top: .35%;
     float: right;
     border-color: rgb(40, 20, 95);
     border-style: ridge;
@@ -127,10 +126,12 @@ h2{
 #battlemenu1{
     display: inline-block;
     margin-left: 10%;
-    font-size: x-large;
+    font-size: larger;
+    height: 90%;
 }
 #battlemenu2{
     float: right;
     margin-right: 15%;
     font-size: larger;
+    height: 90%;
 }
