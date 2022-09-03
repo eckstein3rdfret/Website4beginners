@@ -17,55 +17,12 @@ a:hover{
 a:active{
     color: blue;
 }
-nav{
-    height: 20px;
-    width: 100%;
-    background-color: #e70c0c;
-    font-style: italic;
-    color: #ffffff;
-    list-style-type:none;
-    position: sticky;
-    top: 0px;
-    /*display: inline-block;*/
-}
-nav li{
-    display: inline-block;
-}
+
 footer{
     display: inline-block;
     background-color: black;
     width: 100%;
     height: 125px;
-}
-#bm1{
-    width: 69%;
-    padding: 35px;
-    background-image: linear-gradient(to bottom, rgba(240, 255, 40, 1) 0%, rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
-    background-clip: content-box, padding-box;
-}
-.battlemenu{
-    float: right;
-    width: 30%;
-    height: 125px;
-    padding-top: 15px;
-    padding-left: 30px;
-    padding-right: 75px;
-    background-color: #d4d0d0;
-    border-style: ridge;
-    border-width: 10px;
-    border-radius: 6px;
-    border-color: rgb(40, 20, 95);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
-    text-shadow: #e70e0e;
-    list-style-type: none;
-}
-.alignL{
-    text-align: left;
-}
-.alignR{
-    float: right;
-    margin-right: 10px;
 }
 div.sidebarL{
     height: 100vh;
@@ -73,10 +30,9 @@ div.sidebarL{
     background-color: black;
     float: left;
     position: sticky;
-    top: 20px;
+    top: 0px;
 }
 .Main{
-    background-image: url("/Final Project/img/logo6.png");
     background-color: rgb(168, 164, 164);
     display: inline-block;
     height: 100vh;
@@ -87,12 +43,6 @@ h2{
     color: white;
     margin-bottom: 20px;
     margin-top: 20px;
-}
-.thingie{
-    height: 40%;
-    width: 40%;
-    background-color: rgb(2, 103, 218);
-    display: inline-block;
 }
 .logo{
     position: sticky;
