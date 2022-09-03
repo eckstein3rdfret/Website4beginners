@@ -17,16 +17,9 @@ a:hover{
 a:active{
     color: blue;
 }
-
-footer{
-    display: inline-block;
-    background-color: black;
-    width: 100%;
-    height: 125px;
-}
 div.sidebarL{
-    height: 100%;
-    width: 15%;
+    height: 100vh;
+    width: 10%;
     background-color: black;
     float: left;
     position: sticky;
@@ -36,8 +29,16 @@ div.sidebarL{
     background-color: rgb(168, 164, 164);
     display: inline-block;
     height: 100vh;
-    width: 85%;
+    width: 80%;
     text-align: center;
+}
+div.sidebarR{
+    height: 100vh;
+    width: 10%;
+    background-color: black;
+    float: right;
+    position: sticky;
+    top: 0px;
 }
 h2{
     color: white;
@@ -46,55 +47,59 @@ h2{
 }
 .logo{
     position: sticky;
-    top: 20px;
+    top: 10px;
 }
 
 #div1{
     background-color: rgb(226, 224, 224);
     width: 50px;
     height: 25px;
+    margin-top: 35%;
     text-align: justify;
-    border: black;
-    border-style: dashed;
+    /*border: black;
+    border-style: dashed;*/
 }
 
 #div2{
     background-color: rgb(226, 224, 224);
     width: 50px;
     height: 25px;
-    border: black;
-    border-style: dashed;
+    margin-top: 70%;
+    /*border: black;
+    border-style: dashed;*/
 }
 
 #div3{
     background-color: rgb(226, 224, 224);
     width: 50px;
     height: 25px;
-    border: black;
-    border-style: dashed;
+    margin-top: 35%;
+    margin-left: -60%;
+    /*border: black;
+    border-style: dashed;*/
 }
 
 #div4{
     background-color: rgb(226, 224, 224);
     width: 50px;
     height: 25px;
-    border: black;
-    border-style: dashed;
+    margin-top: 70%;
+    margin-left: -60%;
+    /*border: black;
+    border-style: dashed;*/
 }
 #foot{
-    position: sticky;
-    bottom: 0px;
     background-color: black;
-    width: 100%;
-    height: 150px;
-    margin-left: 0%;
+    width: 80%;
+    height: 145px;
+    margin-left: 10%;
     margin-right: 0%;
     position: sticky;
     bottom: 0px;
 }
 #parent1{
     background-color: #ff0000;
-    width: 75%;
+    width: 65%;
     height: 98%;
     border-radius: 25px;
     border-style: solid;
@@ -104,16 +109,16 @@ h2{
 #parent1a{
     background-color: rgb(3, 117, 70);
     width: 94%;
-    height: 94.5%;
+    height: 93%;
     border-radius: 20px;
-    margin-top: .43%;
+    margin-top: .8%;
     margin-left: 3%;
-    box-shadow: 2px 2px 2px 2px #ff0000 inset;
+    box-shadow: 1px 1px 1px 1px #ff0000 inset;
 }
 #parent2{
     background-color: rgb(226, 224, 224);
     height: 96%;
-    width: 25%;
+    width: 35%;
     margin-top: .35%;
     float: right;
     border-color: rgb(40, 20, 95);
@@ -122,16 +127,17 @@ h2{
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black inset;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
 }
 #battlemenu1{
     display: inline-block;
     margin-left: 10%;
-    font-size: larger;
+    font-size: x-large;
     height: 90%;
 }
 #battlemenu2{
     float: right;
     margin-right: 15%;
-    font-size: larger;
+    font-size: x-large;
     height: 90%;
 }
