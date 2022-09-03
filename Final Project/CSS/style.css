@@ -25,7 +25,7 @@ footer{
     height: 125px;
 }
 div.sidebarL{
-    height: 100vh;
+    height: 50%;
     width: 15%;
     background-color: black;
     float: left;
@@ -47,4 +47,90 @@ h2{
 .logo{
     position: sticky;
     top: 20px;
+}
+
+#div1{
+    background-color: rgb(226, 224, 224);
+    width: 50px;
+    height: 25px;
+    text-align: justify;
+    border: black;
+    border-style: dashed;
+    margin-top: 15px;
+}
+
+#div2{
+    background-color: rgb(226, 224, 224);
+    width: 50px;
+    height: 25px;
+    border: black;
+    border-style: dashed;
+    margin-top: 75px;
+}
+
+#div3{
+    background-color: rgb(226, 224, 224);
+    width: 50px;
+    height: 25px;
+    border: black;
+    border-style: dashed;
+    margin-top: 15px;
+}
+
+#div4{
+    background-color: rgb(226, 224, 224);
+    width: 50px;
+    height: 25px;
+    border: black;
+    border-style: dashed;
+    margin-top: 75px;
+}
+#foot{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin-left: 0%;
+    margin-right: 0%;
+    position: sticky;
+    bottom: 0px;
+}
+#parent1{
+    background-color: #ff0000;
+    width: 83.7%;
+    height: 95%;
+    border-radius: 25px;
+    border-style: solid;
+    box-shadow: 2px 2px 2px 2px black inset;
+    display: inline-block;
+}
+#parent1a{
+    background-color: rgb(3, 117, 70);
+    width: 94%;
+    height: 94.5%;
+    border-radius: 20px;
+    margin-top: .43%;
+    margin-left: 3%;
+    box-shadow: 2px 2px 2px 2px #ff0000 inset;
+}
+#parent2{
+    background-color: rgb(226, 224, 224);
+    height: 90%;
+    width: 14.25%;
+    float: right;
+    border-color: rgb(40, 20, 95);
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#battlemenu1{
+    display: inline-block;
+    margin-left: 10%;
+    font-size: x-large;
+}
+#battlemenu2{
+    float: right;
+    margin-right: 15%;
+    font-size: larger;
 }
