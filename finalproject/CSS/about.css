@@ -3,6 +3,10 @@
     padding: 0%;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'pokemontxt';
+    src: url(/Website4beginners/finalproject/fonts/pokemon-emerald.ttf);
+}
 body{
     background-color: slategray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -134,12 +138,14 @@ h2{
 #battlemenu1{
     display: inline-block;
     margin-left: 10%;
-    font-size: x-large;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
     height: 90%;
 }
 #battlemenu2{
     float: right;
     margin-right: 15%;
-    font-size: x-large;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
     height: 90%;
 }

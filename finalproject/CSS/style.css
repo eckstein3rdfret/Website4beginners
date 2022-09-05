@@ -3,6 +3,10 @@
     padding: 0%;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'pokemontxt';
+    src: url(/Website4beginners/finalproject/fonts/pokemon-emerald.ttf);
+}
 body{
     background-color: slategray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -70,7 +74,7 @@ h2{
     background-color: rgb(226, 224, 224);
     width: 50px;
     height: 25px;
-    margin-top: 70%;
+    margin-top: 57%;
     /*border: black;
     border-style: dashed;*/
 }
@@ -89,7 +93,7 @@ h2{
     background-color: rgb(226, 224, 224);
     width: 50px;
     height: 25px;
-    margin-top: 70%;
+    margin-top: 57%;
     margin-left: -60%;
     /*border: black;
     border-style: dashed;*/
@@ -132,7 +136,7 @@ h2{
     border-width: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black inset;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 4px rgb(117, 117, 117);
     position: absolute;
     bottom: 2px;
     right: 0px;
@@ -140,12 +144,14 @@ h2{
 #battlemenu1{
     display: inline-block;
     margin-left: 10%;
-    font-size: x-large;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
     height: 90%;
 }
 #battlemenu2{
     float: right;
-    margin-right: 15%;
-    font-size: x-large;
+    margin-right: 22%;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
     height: 90%;
 }
