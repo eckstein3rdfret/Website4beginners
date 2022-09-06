@@ -7,6 +7,13 @@
     font-family: 'pokemontxt';
     src: url(/Website4beginners/finalproject/fonts/pokemon-emerald.ttf);
 }
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: magenta;
+}
 body{
     background-color: slategray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,6 +27,7 @@ div.sidebarL{
     top: 0px;
 }
 .Main{
+    background-image: url(/Website4beginners/finalproject/img/Pokeballwallpaper.png);
     background-color: rgb(168, 164, 164);
     display: inline-block;
     height: 100vh;
@@ -79,7 +87,7 @@ div.sidebarR{
     height: 145px;
     margin-left: 10%;
     margin-right: 0%;
-    position: sticky;
+    position: fixed;
     bottom: 0px;
     font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-large;

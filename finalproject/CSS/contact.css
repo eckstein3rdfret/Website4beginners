@@ -7,6 +7,13 @@
     font-family: 'pokemontxt';
     src: url(/Website4beginners/finalproject/fonts/pokemon-emerald.ttf);
 }
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: magenta;
+}
 body{
     background-color: slategray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
