@@ -11,14 +11,6 @@ body{
     background-color: slategray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main h1{
-    margin: 0%;
-    position: absolute;
-    top: 54%;
-    left: 31%;
-    font-size: 35px;
-    font-style: italic;
-}
 div.sidebarL{
     height: 100vh;
     width: 10%;
@@ -46,7 +38,6 @@ div.sidebarR{
     position: sticky;
     top: 10px;
 }
-
 #div1{
     background-color: rgb(226, 224, 224);
     width: 50px;
@@ -56,7 +47,6 @@ div.sidebarR{
     /*border: black;
     border-style: dashed;*/
 }
-
 #div2{
     background-color: rgb(226, 224, 224);
     width: 50px;
@@ -65,7 +55,6 @@ div.sidebarR{
     /*border: black;
     border-style: dashed;*/
 }
-
 #div3{
     background-color: rgb(226, 224, 224);
     width: 50px;
@@ -75,7 +64,6 @@ div.sidebarR{
     /*border: black;
     border-style: dashed;*/
 }
-
 #div4{
     background-color: rgb(226, 224, 224);
     width: 50px;
