@@ -25,7 +25,7 @@ div.sidebarL{
     position: fixed;
 }
 main{
-    background-color: green;
+    background-color: black;
     height: 100%;
     width: 80%;
     margin-left: 10%;
@@ -61,11 +61,23 @@ section p{
   }
 .column{
     float: left;
-    width: 33.33%;
-    height: 1000px;
-    background-color: blue;
+    width: 30%;
+    height: 600px;
+    background-color: rgb(226, 224, 224);
+    border-color: rgb(40, 20, 95);
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    margin: 0 0 0 2.5%;
+    padding: 7px;
+    text-align: justify;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    
 }
-
+.column h1{
+    text-align: center;
+}
 /*#sub1{
     left: 120px;
 }
