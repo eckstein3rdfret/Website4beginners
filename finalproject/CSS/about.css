@@ -22,14 +22,19 @@ div.sidebarL{
     height: 100vh;
     width: 10%;
     background-color: black;
-    float: left;
-    position: sticky;
-    top: 0px;
+    position: fixed;
 }
 main{
+    background-color: green;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+}
+section{
     background-color: rgb(168, 164, 164);
     height: 100vh;
-    width: 80%;
+    width: 100%;
     display: inline-block;
     text-align: center;
 }
@@ -39,48 +44,57 @@ main{
     background-repeat: no-repeat;
     background-position: center;
 }
-main h1{
+section h1{
     color: rgb(226, 224, 224);
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
-main p{
+section p{
     color: rgb(226, 224, 224);
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
-#sub1{
-    position: absolute;
-    left: 0px;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column{
+    float: left;
+    width: 33.33%;
+    height: 1000px;
+    background-color: blue;
+}
+
+/*#sub1{
+    left: 120px;
 }
 #sub2{
-    position: absolute;
-    right: 0px;
+    right: 120px;
 }
 #sub3{
-    position: absolute;
     left: 0px;
     bottom: 100px;
 }
 #sub4{
-    position: absolute;
     right: 0px;
     bottom: 100px;
 
-}
+}*/
 div.sidebarR{
     height: 100vh;
     width: 10%;
     background-color: black;
     float: right;
-    position: sticky;
+    position: fixed;
+    right: 0px;
     top: 0px;
 }
-.logo{
+/*.logo{
     position: sticky;
     top: 5px;
     text-align: left;
-}
+}*/
 #div1{
     background-color: rgb(226, 224, 224);
     width: 50px;
