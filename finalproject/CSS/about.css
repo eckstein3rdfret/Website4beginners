@@ -189,7 +189,7 @@ div.sidebarR{
     font-size: 32px;
     margin: 0;
     position: absolute;
-    top: 32%;
+    top: 48%;
     left: 32%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -218,14 +218,4 @@ div.sidebarR{
     float: right;
     margin-right: 20%;
     height: 90%;
-}
-#wrapper{
-    color: rgb(226, 224, 224);
-    font-size: 32px;
-    margin: 0;
-    position: absolute;
-    top: 32%;
-    left: 32%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
