@@ -56,7 +56,7 @@ section p{
     font-style: italic;
 }
 .row{
-    margin-bottom: 14%;
+    margin-bottom: 5%;
 }
 .row:after {
     content: "";
@@ -283,4 +283,28 @@ div.sidebarR{
     background-repeat: no-repeat;
     background-image: url(/Website4beginners/finalproject/img/800px-Hoenn_ORAS.webp);
     float: right;
+}
+.battles{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(226, 224, 224);
+    border-color: rgb(40, 20, 95);
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 300px;
+    padding: 1%;
+}
+.battles div{
+    text-align: center;
+    width: 32%;
+    height: fit-content;
+}
+.battles_img{
+    height: fit-content;
+    width: fit-content;
 }
