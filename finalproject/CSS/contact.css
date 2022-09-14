@@ -272,3 +272,11 @@ text-align: left;
     margin-top: 10%;
     margin-left: 30%;
 }
+.hyper{
+    width: fit-content;
+    height: fit-content;
+    border-color: red;
+    border-style: solid;
+    border: 1px;
+    display: flex;
+}
