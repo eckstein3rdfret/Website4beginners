@@ -296,7 +296,7 @@ div.sidebarR{
     font-family: 'pokemontxt', Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 300px;
+    margin-bottom: 5%;
     padding: 1%;
 }
 .battles div{
@@ -307,4 +307,36 @@ div.sidebarR{
 .battles_img{
     height: fit-content;
     width: fit-content;
+}
+.eveelution{
+    width: 45%;
+    height: 90%;
+    margin: 2%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/Website4beginners/finalproject/img/Eeveelutions.webp);
+    float: right;
+}
+.championimg{
+    width: 45%;
+    height: 90%;
+    margin: 2%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/Website4beginners/finalproject/img/champions.avif);
+    float: right;
+}
+.champion{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(226, 224, 224);
+    border-color: rgb(40, 20, 95);
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black inset;
+    margin-bottom: 19%;
+    clear: both; 
 }
