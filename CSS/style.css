@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'pokemontxt';
-    src: url(/Website4beginners/finalproject/fonts/pokemon-emerald.ttf);
+    src: url(/Website4beginners/fonts/pokemon-emerald.ttf);
 }
 a{
     color: black;
@@ -36,7 +36,7 @@ main h1{
 .Main{
     background-position: center;
     background-size: 100% 100%;
-    background-image: url(/Website4beginners/finalproject/img/LetsBattle.png);
+    background-image: url(/Website4beginners/img/LetsBattle.png);
     background-repeat: no-repeat;
     text-align: center;
 }
