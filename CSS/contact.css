@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'pokemontxt';
-    src: url(/Website4beginners/fonts/pokemon-emerald.ttf);
+    src: url(/fonts/pokemon-emerald.ttf);
 }
 a{
     color: black;
@@ -40,7 +40,7 @@ section{
     text-align: center;
 }
 .Main{
-    background-image: url(/Website4beginners/img/pokedex.jpeg);
+    background-image: url(/img/pokedex.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

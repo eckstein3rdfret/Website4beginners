@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'pokemontxt';
-    src: url(/Website4beginners/fonts/pokemon-emerald.ttf);
+    src: url(/fonts/pokemon-emerald.ttf);
 }
 a{
     color: black;
@@ -39,7 +39,7 @@ section{
     text-align: center;
 }
 .Main{
-    background-image: url(/Website4beginners/img/Pokeballwallpaper.png);
+    background-image: url(/img/Pokeballwallpaper.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -250,7 +250,7 @@ div.sidebarR{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/Website4beginners/img/Kanto_HGSS_Art.webp);
+    background-image: url(/img/Kanto_HGSS_Art.webp);
     float: right;
 }
 .region_text2{
@@ -271,7 +271,7 @@ div.sidebarR{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/Website4beginners/img/Johto_HGSSmap-1038x576.png);
+    background-image: url(/img/Johto_HGSSmap-1038x576.png);
     float: left;
 }
 .region_img3{
@@ -281,7 +281,7 @@ div.sidebarR{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/Website4beginners/img/800px-Hoenn_ORAS.webp);
+    background-image: url(/img/800px-Hoenn_ORAS.webp);
     float: right;
 }
 .battles{
@@ -315,7 +315,7 @@ div.sidebarR{
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/Website4beginners/img/Eeveelutions.webp);
+    background-image: url(/img/Eeveelutions.webp);
     float: right;
 }
 .championimg{
@@ -325,7 +325,7 @@ div.sidebarR{
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/Website4beginners/img/champions.avif);
+    background-image: url(/img/champions.avif);
     float: right;
 }
 .champion{
