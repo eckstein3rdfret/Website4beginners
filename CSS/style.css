@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'pokemontxt';
-    src: url(/fonts/pokemon-emerald.ttf);
+    src: url(/Website4beginners/fonts/pokemon-emerald.ttf);
 }
 a{
     color: black;
@@ -48,7 +48,7 @@ section h1{
     left: 30%;
 }
 .Main{
-    background-image: url(/img/LetsBattle.png);
+    background-image: url(/Website4beginners/img/LetsBattle.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
